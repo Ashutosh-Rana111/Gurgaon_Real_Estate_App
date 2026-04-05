@@ -48,18 +48,6 @@ Data Handling: Pandas, NumPy
 
 Visualization: Plotly, Matplotlib, Seaborn
 
-📂 Project Structure
-
-├── Gurgaon_Price_Predictor.py   # Home Page
-├── pages/
-│   ├── 1_Analysis.py           # Market EDA & Maps
-│   ├── 2_Price_Prediction.py   # ML Prediction Logic
-│   ├── 3_Recommender.py        # Recommendation Engine
-│   └── 4_AI_Assistant.py       # Gemini AI Chatbot
-├── models                      # Trained Pickle Files
-└── requirements.txt            # Python Dependencies
-
-
 🔧 Local Setup
 
 Clone the repo:
