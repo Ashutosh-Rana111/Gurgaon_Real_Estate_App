@@ -36,7 +36,7 @@ with col1:
     selected_location = st.selectbox('Select a Landmark', filtered_list)
 
 with col2:
-    radius = st.number_input('Radius (in km)', min_value=0.5, max_value=60.0, value=15.0, step=1)
+    radius = st.number_input('Radius (in km)', min_value=0.5, max_value=60.0, value=15.0, step=1.0)
 
 if st.button('Search Nearby'):
     result_ser = location_df[location_df[selected_location] < radius * 1000][selected_location].sort_values()
