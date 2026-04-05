@@ -1,10 +1,7 @@
-streamlit
-pandas
-numpy
-scikit-learn
-google-genai
-plotly
-xgboost
-matplotlib
-seaborn
-pickle
+streamlit==1.47.0
+pandas==2.2.3
+numpy==2.3.1
+scikit-learn==1.6.1
+google-genai==1.70.0
+plotly==6.6.0
+xgboost==3.1.3
