@@ -1,72 +1,81 @@
-🏙️ Gurgaon Real Estate Analytics & AI Assistant
+# 🏙️ Gurgaon Real Estate Analytics & AI Assistant
 
-A comprehensive end-to-end data science project that leverages Machine Learning and Generative AI to provide deep insights into the Gurgaon real estate market.
+#### A comprehensive end-to-end data science project that leverages Machine Learning and Generative AI to provide deep insights into the Gurgaon real estate market.
 
-🚀 Live Demo
+## 🚀 Live Demo
 
 https://gurgaonrealestateapp.streamlit.app/
 
-🌟 Key Features
+### 🔗 Related Projects - https://github.com/Ashutosh-Rana111/Real_Estate_Project.git
 
-💰 1. Property Price Predictor
+- This application is powered by a comprehensive machine learning pipeline developed in a separate project. The pipeline includes extensive data cleaning, advanced feature engineering, and robust model building, achieving **R² ≈ 0.90** using optimized ensemble models.
 
-Uses an XGBoost Regression model to estimate property values.
+- It also integrates a hybrid recommendation system that suggests similar societies based on location proximity, price & configuration, and amenities, combining multiple similarity signals for more relevant results.
 
-Features Target Encoding for high-cardinality categorical data (Sectors).
+- The backend pipeline ensures that predictions and recommendations are data-driven, scalable, and aligned with real-world real estate patterns, making this application more than just a UI layer
 
-Adjusted for 2026 market appreciation to ensure realistic estimates.
+---
+## 🌟 Key Features
 
-📊 2. Interactive Market Analysis
+### 💰 1. Property Price Predictor
 
-Geospatial Mapping: Interactive Plotly scatter maps showing price distribution across Gurgaon sectors.
+- Uses an XGBoost Regression model to estimate property values.
 
-Data Visualization: Detailed charts analyzing BHK distributions, property types, and luxury scores.
+- Features Target Encoding for high-cardinality categorical data (Sectors).
 
-🏘️ 3. Apartment Recommender
+- Adjusted for 2026 market appreciation to ensure realistic estimates.
 
-Landmark-based Search: Find properties within a specific radius (km) of major Gurgaon landmarks.
+## 📊 2. Interactive Market Analysis
 
-Content-Based Filtering: Uses Cosine Similarity to recommend similar apartments based on facilities, location, and price point.
+- **Geospatial Mapping**: Interactive Plotly scatter maps showing price distribution across Gurgaon sectors.
 
-🤖 4. AI Market Assistant (GenAI)
+- **Data Visualization**: Detailed charts analyzing BHK distributions, property types, and luxury scores.
 
-Integrated Gemini 2.5 Flash model with Google Search Grounding.
+## 🏘️ 3. Apartment Recommender
 
-Provides live answers to real-time queries about infrastructure, new launches, and market news.
+- **Landmark-based Search**: Find properties within a specific radius (km) of major Gurgaon landmarks.
 
-Optimized for conciseness and token efficiency.
+- **Content-Based Filtering**: Uses Cosine Similarity to recommend similar apartments based on facilities, location, and price point.
 
-🛠️ Tech Stack
+## 🤖 4. AI Market Assistant (GenAI)
 
-Frontend: Streamlit
+- Integrated `Gemini 2.5 Flash` model with Google Search Grounding.
 
-Machine Learning: Scikit-Learn, XGBoost, Category Encoders
+- Provides live answers to real-time queries about infrastructure, new launches, and market news.
 
-Generative AI: Google GenAI SDK (Gemini 2.5 Flash)
+- Optimized for conciseness and token efficiency.
 
-Data Handling: Pandas, NumPy
+## 🛠️ Tech Stack
 
-Visualization: Plotly, Matplotlib, Seaborn
+- Frontend: Streamlit
 
-🔧 Local Setup
+- Machine Learning: Scikit-Learn, XGBoost, Category Encoders
 
-Clone the repo:
+- Generative AI: Google GenAI SDK (Gemini 2.5 Flash)
+
+- Data Handling: Pandas, NumPy
+
+- Visualization: Plotly, Matplotlib, Seaborn
+
+## 🔧 Local Setup
+
+3## Clone the repo:
 
 git clone [https://github.com/Ashutosh-Rana111/Gurgaon_Real_Estate_App.git](https://github.com/Ashutosh-Rana111/Gurgaon_Real_Estate_App.git)
 
 
-Install dependencies:
+### Install dependencies:
 
 pip install -r requirements.txt
 
 
-Set up API Key:
-Create a .streamlit/secrets.toml file and add:
+### Set up API Key:
+Create a `.streamlit/secrets.toml` file and add:
 
 GEMINI_API_KEY = "your_google_api_key"
 
 
-Run the app:
+### Run the app:
 
 streamlit run Gurgaon_Price_Predictor.py
 
