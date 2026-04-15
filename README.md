@@ -6,13 +6,13 @@
 
 https://gurgaonrealestateapp.streamlit.app/
 
-### 🔗 Related Projects - https://github.com/Ashutosh-Rana111/Real_Estate_Project.git
-
+### 🔗 Related Projects
 - This application is powered by a comprehensive machine learning pipeline developed in a separate project. The pipeline includes extensive data cleaning, advanced feature engineering, and robust model building, achieving **R² ≈ 0.90** using optimized ensemble models.
 
 - It also integrates a hybrid recommendation system that suggests similar societies based on location proximity, price & configuration, and amenities, combining multiple similarity signals for more relevant results.
 
 - The backend pipeline ensures that predictions and recommendations are data-driven, scalable, and aligned with real-world real estate patterns, making this application more than just a UI layer
+- Check it out here  - https://github.com/Ashutosh-Rana111/Real_Estate_Project.git
 
 ---
 ## 🌟 Key Features
@@ -59,7 +59,7 @@ https://gurgaonrealestateapp.streamlit.app/
 
 ## 🔧 Local Setup
 
-3## Clone the repo:
+### Clone the repo:
 
 git clone [https://github.com/Ashutosh-Rana111/Gurgaon_Real_Estate_App.git](https://github.com/Ashutosh-Rana111/Gurgaon_Real_Estate_App.git)
 
