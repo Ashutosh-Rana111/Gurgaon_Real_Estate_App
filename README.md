@@ -87,6 +87,6 @@ GEMINI_API_KEY = "your_google_api_key"
 streamlit run Gurgaon_Price_Predictor.py
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Ashutosh Rana B.Tech Computer Science [www.linkedin.com/in/ashutosh-rana-7258432a7]
+#### Ashutosh  B.Tech Computer Science [www.linkedin.com/in/ashutosh-rana-7258432a7]
