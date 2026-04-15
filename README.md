@@ -19,26 +19,33 @@ https://gurgaonrealestateapp.streamlit.app/
 
 ### 💰 1. Property Price Predictor
 
-- Uses an XGBoost Regression model to estimate property values.
-
-- Features Target Encoding for high-cardinality categorical data (Sectors).
+- End-to-End ML pipeline for price prediction using advanced preprocessing and feature engineering.
+  
+- Uses optimized XGBoost (R² ≈ 0.90) using hyperparameter tuning.
+  
+- Final model is deployed as a scalable pipeline, ensuring consistent and reliable predictions.
 
 - Adjusted for 2026 market appreciation to ensure realistic estimates.
 
 ## 📊 2. Interactive Market Analysis
 
-- **Geospatial Mapping**: Interactive Plotly scatter maps showing price distribution across Gurgaon sectors.
+### Geospatial Mapping
+- Interactive Plotly scatter maps showing price distribution across Gurgaon sectors.
 
-- **Data Visualization**: Detailed charts analyzing BHK distributions, property types, and luxury scores.
+###  Data Visualization
+-  Detailed charts analyzing BHK distributions, property types, and luxury scores.
 
 ## 🏘️ 3. Apartment Recommender
 
-- **Landmark-based Search**: Find properties within a specific radius (km) of major Gurgaon landmarks.
+### **Landmark-based Search**: 
+- Find properties within a specific radius (km) of major Gurgaon landmarks.
 
-- **Content-Based Filtering**: Uses Cosine Similarity to recommend similar apartments based on facilities, location, and price point.
+### **Content-Based Filtering**:
+- Hybrid recommendation system combining location, price/configuration, and amenities to suggest similar societies.
+- Used TF-IDF, feature scaling, and cosine similarity across multiple feature spaces.
+- Final recommendations are generated using a weighted similarity score, ensuring relevance across budget, lifestyle, and connectivity.
 
 ## 🤖 4. AI Market Assistant (GenAI)
-
 - Integrated `Gemini 2.5 Flash` model with Google Search Grounding.
 
 - Provides live answers to real-time queries about infrastructure, new launches, and market news.
